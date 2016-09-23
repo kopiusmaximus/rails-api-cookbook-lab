@@ -17,14 +17,14 @@ curl --include --request POST http://localhost:3000/ingredients \
   }'
 
 # update
-curl --include --request PATCH http://localhost:3000/ingredients/6 \
+curl --include --request PATCH http://localhost:3000/ingredients/4 \
   --header "Content-Type: application/json" \
   --data '{
     "ingredient": {
-      "name": "salt",
-      "std_measure": "tsp",
-      "color": "white",
-      "toxicity": "non-toxic"
+      "name": "canned tuna",
+      "std_measure": "cup",
+      "color": "pinkish-beige",
+      "toxicity": "mercurial"
     }
   }'
 
