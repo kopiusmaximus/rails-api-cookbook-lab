@@ -8,4 +8,5 @@ Rails.application.routes.draw do
 
   get '/ingredients', to: 'ingredients#index'
   get '/ingredients/:id', to: 'ingredients#show'
+  post 'ingredients', to: 'ingredients#create'
 end
