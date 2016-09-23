@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20160922183554) do
     t.string   "name"
     t.string   "std_measure"
     t.string   "color"
+    t.string   "toxicity"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
